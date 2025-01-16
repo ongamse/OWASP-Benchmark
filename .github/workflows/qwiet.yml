@@ -76,7 +76,7 @@ jobs:
         else
             echo "Benchmark results were not produced correctly. Check if you have Java 1.8 installed"
         fi
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: Benchmark_v1.2_Scorecard_for_ShiftLeft
         path: scorecard
